@@ -74,7 +74,6 @@ function yes(){
     player.load();
     player.play();
     document.getElementById("history").style.display = "block";
-    document.getElementById("rickroll").setAttribute("src","https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1")
     document.getElementById("endtext").innerHTML = "Congratulations " + document.getElementById("name").value + " you are now a part of 7 bilion people being rickrolled!"
 }
 setup();
